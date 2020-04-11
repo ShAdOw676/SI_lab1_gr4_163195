@@ -1,4 +1,4 @@
-class Point {
+public class Point {
 	String id
 	double x,y;
 
@@ -9,7 +9,7 @@ class Point {
 
 	public Point(){}
 
-	public Point(String id, double x, double y, String color) {
+	public Point(String id, double x, double y) {
 		this.id = id;
 		this.x = x;
 		this.y = y;
